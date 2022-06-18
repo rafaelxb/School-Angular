@@ -128,7 +128,7 @@ const professorMateria = (professor:Professor[]): Materias[] => {
 
 //11
 
-const primeiroProfessorTypescritp = (professor: Professor[]): any => {
+const primeiroProfessorTypescritp = (professor: Professor[]) => {
     const primeiroProfessor =  professor.find(professor => 
         professor.materia.includes(Materias.Typescript));
     return primeiroProfessor
