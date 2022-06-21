@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ListWorkersComponent } from './workers/list-workers/list-workers.component';
+import { ListWorkersComponent } from './components/workers/list-workers/list-workers.component';
 
 
 
